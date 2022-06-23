@@ -1,0 +1,17 @@
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: red;
+    border: 1px solid transparent;
+}
+
+.link:hover {
+    border-bottom: 1px solid red;
+}
