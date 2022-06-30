@@ -1,0 +1,7 @@
+.tab-heading {
+    font-weight: normal;
+}
+
+.tab-heading.active {
+    font-weight: bold;
+}
