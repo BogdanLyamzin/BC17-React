@@ -7,21 +7,11 @@ export const addBook = createAction("books/add", (data) => {
     }
 })
 
-/*
-function createAction (type) {
-    const func = (payload) => {
-        return {
-            type,
-            payload
-        }
+export const fetchBooks = createAction("books/fetch", (data) => {
+    return {
+        payload: {...data, id: nanoid()}
     }
-    func.type = type;
-    func.toString = function() {
-        return type;
-    }
-    return func;
-}
-*/
+})
 
 export const removeBook = createAction("books/remove");
 
