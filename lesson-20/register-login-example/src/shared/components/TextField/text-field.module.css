@@ -1,0 +1,16 @@
+.block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.label {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width: 100px;
+    padding-right: 15px;
+}
+
+.input {
+    padding: 5px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
